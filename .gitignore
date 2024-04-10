@@ -2,6 +2,7 @@
 /app/config/database.php
 /app/config/api.php
 /logs
+/data/*
 composer.lock
 vendor
 .idea
