@@ -13,7 +13,7 @@ class IndexController extends AbstractController
     public function index(): void
     {
         $this->prepareView('index.phtml');
-        $this->view->title = 'Index';
+        $this->view->title = 'My App - Index';
         $this->send();
     }
 
@@ -25,7 +25,7 @@ class IndexController extends AbstractController
     public function error(): void
     {
         $this->prepareView('error.phtml');
-        $this->view->title = 'Error';
+        $this->view->title = 'My App - Error';
         $this->send(404);
     }
 
@@ -37,7 +37,7 @@ class IndexController extends AbstractController
     public function maintenance(): void
     {
         $this->prepareView('maintenance.phtml');
-        $this->view->title = 'Website is Down';
+        $this->view->title = 'My App - Website is Down';
         $this->send(503);
     }
 
