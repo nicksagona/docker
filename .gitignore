@@ -1,0 +1,9 @@
+.env
+/app/config/database.php
+/app/config/api.php
+/logs
+composer.lock
+vendor
+.idea
+.current
+.phpunit.result.cache
